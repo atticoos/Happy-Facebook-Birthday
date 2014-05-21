@@ -1,0 +1,23 @@
+{
+  "name": "HappyFacebookBirthday",
+  "version": "0.0.1",
+  "authors": [
+    "Atticus White <contact@atticuswhite.com>"
+  ],
+  "description": "Happy Facebook Birthday is an app that will autorespond to your birthday wishes on FB",
+  "license": "MIT",
+  "homepage": "facebookbirthday.herokuapp.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/packages",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.1.1",
+    "angular-ui-router": "~0.2.10"
+  }
+}
