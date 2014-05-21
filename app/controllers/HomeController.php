@@ -1,5 +1,7 @@
 <?php
 
+
+
 class HomeController extends BaseController {
 
 	/*
@@ -17,7 +19,11 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('hello');
+		return View::make('angular');
 	}
+
+    public function test(){
+        return View::make('test');
+    }
 
 }

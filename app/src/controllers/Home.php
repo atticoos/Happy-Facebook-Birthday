@@ -24,7 +24,6 @@ class Home extends BaseController {
 
     public function showWelcome()
     {
-        $user = User::with('token')->findOrFail(1);
         return View::make('angular');
     }
 

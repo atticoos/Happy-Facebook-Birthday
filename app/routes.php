@@ -11,7 +11,15 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+
+Route::get('/', 'FacebookBirthday\\Controllers\\Home@showWelcome');
+
+
+Route::get('/test', 'HomeController@test');
+
+
+/* API */
+
+Route::get('/api/me', 'FacebookBirthday\\Controllers\\Api\\Me@getProfile');
+
+Route::get('/api/test', 'FacebookBirthday\\Controllers\\Api\\Auth@getByFacebookId');
